@@ -3,8 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>info.inkstack.troll</groupId>
-		<artifactId>Troll</artifactId>
+		<artifactId>troll-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent</relativePath>
 	</parent>
 	<artifactId>troll-core</artifactId>
 	<name>Troll Core</name>
@@ -22,22 +23,13 @@
 			<artifactId>mmseg4j-core</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>com.huaban</groupId>
+			<artifactId>jieba-analysis</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>

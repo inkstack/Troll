@@ -2,8 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>info.inkstack.troll</groupId>
-    <artifactId>Troll</artifactId>
+    <artifactId>troll-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../parent</relativePath>
   </parent>
   <artifactId>cli</artifactId>
   <name>Command Line</name>
